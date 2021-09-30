@@ -21,6 +21,6 @@ def getClientName():
     return clientName
 
 def getDateRange():
-    datelist = pd.date_range(date.today(), periods=100).tolist()
+    datelist = pd.date_range(date.today(), periods=365).tolist()
     
     return datelist
